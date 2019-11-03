@@ -13,6 +13,7 @@ public class LoopThread extends Thread{
 	private Socket socket;
 	private DataInputStream in;
 	private DataOutputStream out;
+	private String name;
 	
 	public LoopThread(Socket socket, boolean flag) {
 		this.socket = socket;
@@ -22,7 +23,8 @@ public class LoopThread extends Thread{
 	public void run() {
 		
 		while(flag) {
-			String text = reciveMsg("recivemsg :");
+			name = reciveMsg("reciveNickname :");
+			String posts = reciveMsg("recivePosta :");
 			
 		}
 	}

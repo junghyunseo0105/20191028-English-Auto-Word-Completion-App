@@ -2,5 +2,8 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/jungh/OneDrive/바탕 화면/20191028 영어 자동 단어 완성 앱/20191028-English-Auto-Word-Completion-App/JavaServer/Test/jsoup-1.12.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jungh/OneDrive/바탕 화면/20191028 영어 자동 단어 완성 앱/20191028-English-Auto-Word-Completion-App/JavaServer/Test/jsoup-1.12.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jungh/OneDrive/바탕 화면/20191028 영어 자동 단어 완성 앱/20191028-English-Auto-Word-Completion-App/JavaServer/Test/jsoup-1.12.1-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
