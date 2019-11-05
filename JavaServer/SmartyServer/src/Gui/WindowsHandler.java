@@ -3,6 +3,7 @@ package Gui;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 
+import DataFile.WordFile;
 import Server.Server;
 import Storage.DataHandler;
 
@@ -11,11 +12,13 @@ public class WindowsHandler implements WindowListener{
 	private Server server;
 	private DataHandler dataHandler;
 	private Gui gui;
+	private WordFile wordFile;
 	
-	public WindowsHandler(Server server, DataHandler dataHandler, Gui gui) {
+	public WindowsHandler(Server server, DataHandler dataHandler, Gui gui, WordFile wordFile) {
 		this.server = server;
 		this.dataHandler = dataHandler;
 		this.gui = gui;
+		this.wordFile = wordFile;
 	}
 
 	@Override
@@ -31,6 +34,8 @@ public class WindowsHandler implements WindowListener{
 
 	@Override
 	public void windowClosing(WindowEvent e) {
+		dataHandler.saveData();
+		wordFile.save();
 		System.exit(0);
 	}
 
@@ -55,6 +60,7 @@ public class WindowsHandler implements WindowListener{
 	@Override
 	public void windowOpened(WindowEvent e) {
 		loadData();
+		wordFile.load();
 	}
 	
 	public void loadData() {

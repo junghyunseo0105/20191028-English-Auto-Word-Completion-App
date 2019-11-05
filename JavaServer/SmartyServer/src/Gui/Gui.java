@@ -13,6 +13,8 @@ import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 import javax.xml.crypto.Data;
 
+import DataFile.Word;
+import DataFile.WordFile;
 import Server.Server;
 import Storage.DataHandler;
 
@@ -22,12 +24,15 @@ public class Gui extends JFrame{
 	private JPanel contentPane;
 	private JLabel request;
 	private JLabel words;
+	
 	private Server server;
 	private DataHandler dataHandler;
+	private WordFile wordFile;
 	
-	public Gui(Server server, DataHandler dataHandler) {
+	public Gui(Server server, DataHandler dataHandler, WordFile wordFile) {
 		this.server = server;
 		this.dataHandler = dataHandler;
+		this.wordFile = wordFile;
 		
 	}
 	
@@ -41,7 +46,7 @@ public class Gui extends JFrame{
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		frame.setContentPane(contentPane);
 		contentPane.setLayout(null);
-		frame.addWindowListener(new WindowsHandler(server, dataHandler, this));
+		frame.addWindowListener(new WindowsHandler(server, dataHandler, this, wordFile));
 
 		request = new JLabel("0 request");
 		request.setFont(new Font("Arial Rounded MT Bold", Font.PLAIN, 37));

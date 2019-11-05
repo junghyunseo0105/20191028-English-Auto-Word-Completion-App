@@ -24,12 +24,16 @@ public class RequestHandler {
 		requestNum += plusNum;
 	}
 	
+	public int getRequest() {
+		return requestNum;
+	}
+	
 	public void saveRequest() {
 		fileIO.writeInteger(path, requestNum);
 	}
 	
 	public int readRequest() {
-		return fileIO.readInteger(path);
+		return requestNum;
 	}
 	
 	public boolean isFile() {

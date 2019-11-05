@@ -2,10 +2,22 @@ package Enposta;
 
 import java.util.ArrayList;
 
+import DataFile.Word;
+import DataFile.WordFile;
+import Gui.Gui;
+import Storage.DataHandler;
+
 public class Enposta {
 	
-	private ArrayList<Word> array = new ArrayList<Word>();
-	private Posta posta;
+	private WordFile wordFile;
+	private Gui gui;
+	private DataHandler dataHandler;
+	
+	public Enposta(WordFile wordFile, Gui gui, DataHandler dataHandler) {
+		this.wordFile = wordFile;
+		this.gui = gui;
+		this.dataHandler = dataHandler;
+	}
 	
 	/*
 	 * 사용량 및 단어 사용량 을 계산한다.
@@ -14,19 +26,29 @@ public class Enposta {
 	 */
 	
 	public String getCalculList(String posts) {
-		array = posta.getFinalPosta(posts);
-		String wordOneList = null;
+		Posta posta = new Posta(wordFile);
+		ArrayList<Word> array = posta.getFinalPosta(posts);
+		String wordOneList = new String();
 		int length = array.size();
+		
+		increaseStorage(length);
+		
 		for(int i = 0; i < length; i++) {
 			Word word = array.get(i);
 			
-			
 			wordOneList += word.getSpelling() + "/";
 			wordOneList += word.getComponent() + "/";
-			wordOneList += word.getMean() + "$";
+			wordOneList += word.getMean() + "\n";
 		}
 		
 		return wordOneList;
 	}
 	
+	public void increaseStorage(int amount) {
+		int requestNum = dataHandler.plusRequest(1);
+		int wordsNum = dataHandler.plusWords(amount);
+		
+		gui.setRequest(requestNum);
+		gui.setWords(wordsNum);
+	}
 }

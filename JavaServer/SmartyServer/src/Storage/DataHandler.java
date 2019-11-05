@@ -9,16 +9,20 @@ public class DataHandler {
 		request = new RequestHandler();
 	}
 
-	public void plusRequest(int plusNum) {
+	public int plusRequest(int plusNum) {
 		request.plusRequest(plusNum);
+		
+		return request.getRequest();
 	}
 	
 	public int readRequest() {
 		return request.readRequest();
 	}
 	
-	public void plusWords(int plusNum) {
+	public int plusWords(int plusNum) {
 		words.plusWords(plusNum);
+		
+		return words.readWords();
 	}
 	
 	public int readWords() {

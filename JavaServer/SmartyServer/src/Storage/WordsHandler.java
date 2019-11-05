@@ -30,7 +30,7 @@ public class WordsHandler {
 	}
 	
 	public int readWords() {
-		return fileIO.readInteger(path);
+		return wordsNum;
 	}
 	
 	public boolean isFile() {

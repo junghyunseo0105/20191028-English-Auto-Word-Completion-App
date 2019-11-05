@@ -4,22 +4,28 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.net.ServerSocket;
+import java.net.Socket;
 
 import javax.xml.crypto.Data;
 
+import DataFile.WordFile;
 import Gui.Gui;
 import Storage.DataHandler;
 
 public class Server {
 	private ServerSocket serverSocket;
+	private Gui gui;
+	private WordFile wordFile;
+	private DataHandler dataHandler;
+	
 	private int port;
 	private boolean isOpen = false;
-	private Gui gui;
 	
-	public Server(Gui gui, int port) {
+	public Server(Gui gui, WordFile wordFile, int port, DataHandler dataHandler) {
 		this.gui = gui;
+		this.wordFile = wordFile;
 		this.port = port;
-		
+		this.dataHandler = dataHandler;
 	}
 	
 	public void start() {
@@ -38,7 +44,7 @@ public class Server {
 	public void stop() {
 		try {
 			serverSocket.close();
-			
+			inviteThread.stop();
 			isOpen = false;
 			System.out.println("Class server.stop");
 		} catch (IOException e) {
@@ -49,8 +55,9 @@ public class Server {
 	private InviteThread inviteThread;
 	
 	public void invite() {
-		inviteThread = new InviteThread(serverSocket, true);
+		inviteThread = new InviteThread(serverSocket, wordFile, gui, dataHandler, true);
 		inviteThread.start();
+		
 	}
 	
 	public boolean getOpen() {
