@@ -40,6 +40,7 @@ public class Main {
 		} catch (UnknownHostException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
+			System.exit(0);
 			e.printStackTrace();
 		}
 		
