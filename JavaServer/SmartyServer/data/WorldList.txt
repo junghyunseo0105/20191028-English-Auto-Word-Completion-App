@@ -1,89 +1,259 @@
 /none/none/none
 Coated/none/none/none
-reports/report/noun/보고서
 been/been/verb/“be”의 과거 분사형
-Word/word/noun/단어, 말
-organization./organization/noun/단체
-Papers/paper/noun/종이
+establishing/establish/verb/건설하다
 Much/none/none/none
-project/project/noun/프로젝트
-Journal/journal/noun/학술지
-Watson/none/none/none
-experience/experience/noun/(직장등에서 얻는) 경험
-Magazine./magazine/noun/잡지
-deadlines/deadline/noun/기한
-years/year/noun/년
-platforms/platform/noun/플랫폼, 승강장
-abilities/ability/noun/능력
+discipline/discipline/noun/훈육, 징계
+Saturday/Saturday/noun/토요일
+concern/concern/verb/중요하다, 중시하다
+decided/decide/verb/결정하다
+?/none/none/none
 annual/annual/adjective/연례의
-create/create/verb/-을 창출하다, 만들어 내다
-helped/help/verb/-를 도와주다
 Thank/thank/verb/감사를 표하다
-Yours/yours/pronoun/너의 것
-has/none/none/none
+let/let/verb/-하게 허락해주다
+“/none/none/none
+sticking/stick/verb/붙다
 addition/none/none/none
-package/package/noun/소포
-MS/Ms/noun/(여성의 성 앞에)-씨
-work/work/verb/일하다
-crafted/none/none/none
+shopping/shopping/noun/쇼핑, 구매
+waves/wave/verb/손을 흔들다
+going/go/verb/가다
+began/none/none/none
 pace/pace/noun/속도
-consideration./consideration/noun/고려
+outer/outer/adjective/밖의
+personal/personal/adjective/개인의
 am/none/none/none
+something/something/pronoun/무언가, 어떤것
+trying/try/verb/노력하다
+looking/look/verb/보다
+Symposium/none/none/none
+fact/fact/noun/사실
+be/be/verb/(사람이나 사물을 묘사할때 쓰임)-이다
+conference/conference/noun/회의
+lifelong/none/none/none
+sea/sea/noun/바다
+otter/otter/noun/수달
+moment/moment/noun/찰나
+knowledgeable/knowledgeable/adjective/아는 것이 많은
+see/see/verb/보다
+same/none/none/none
+Association/association/noun/협회
+are/none/none/none
+advertisement/advertisement/noun/광고
+came/none/none/none
+Lifestyle/lifestyle/noun/생활 방식
+hearing/hearing/noun/청력
+free/free/adjective/무료의
+kids/kid/noun/어린이
+Food/food/noun/음식
+art/art/noun/예술
+strapped/strap/noun/끈
+Publications/publication/noun/출판물
+Hawaii/none/none/none
+benefited/benefit/noun/혜택
+started/start/verb/시작하다
+possible/possible/adjective/가능한
+many/many/determiner/많은
+people/people/noun/사람들
+fortunate/fortunate/adjective/운 좋은
+food/food/noun/음식
+Arcade/none/none/none
+gripping/gripping/adjective/흥미를 이끄는
+such/such/determiner/(강조의) 너무나
+fast/fast/adjective/빠른
+meet/meet/verb/만나다
+t/none/none/none
+days/day/noun/하루
+information/information/noun/정보
+collateral/none/none/none
+wrap/wrap/verb/-을 싸다, -을 포장하다
+crashing/crash/noun/사고
+did/none/none/none
+reports/report/noun/보고서
+Writers/writer/noun/작가
+Papers/paper/noun/종이
+project/project/noun/프로젝트
+Watson/none/none/none
+had/had/verb/“have”의 과거, 과거 분사형
+individuals/individual/adjective/개인의
+gatherings/gathering/noun/모임
+white/white/adjective/흰색의
+things/thing/noun/일
+helped/help/verb/-를 도와주다
+has/none/none/none
+preceded/none/none/none
+farmhouse/farmhouse/noun/농가
+coastline/coastline/noun/해안선
+sharing/share/verb/함께쓰다
+girl/girl/noun/소녀
 look/look/verb/보다
+catch./catch/verb/-을 붙잡다
+volume/volume/noun/소리
+take/take/verb/가지고 가다
 Collins/none/none/none
 Columbia/none/none/none
+owed/owe/verb/빚지다
 University/university/noun/대학교
+unscheduled/none/none/none
+aren/none/none/none
+final/final/adjective/마지막의
+name/name/noun/이름
+scholars/scholar/noun/학자
+region/region/noun/(특정한) 지역
+Sir/sir/noun/이름을 모르는 남자를 공손하게 부를때 씀
+support/support/verb/지지하다
+Press/press/verb/누르다
+rough/rough/adjective/거친, 고르지 않은
+occupy/occupy/verb/차지하다
+concept/concept/noun/개념
+destination/destination/noun/목적지
+packing/none/none/none
+Macmillan/none/none/none
+producing/produce/verb/생산하다
+copywriter/none/none/none
+hard/hard/adjective/견고한, 딱딱한
+packed/packed/adjective/(사람들이) 꽉 들어찬
+types/type/noun/종류, 유형
+toys/toy/noun/장난감
+Brandon/none/none/none
+go/go/verb/가다
+was/was/verb/“be”의 과거형으로 “I”, “he”, “she”, 그리고 “it”과 함께 사용된다
+reading/reading/noun/독서
+home/home/noun/(사람들이 함께 사는)집
+material/material/noun/천
+encouragement/encouragement/noun/격려
+time/time/noun/시
+nightfall/none/none/none
+family/family/noun/가족
+Cookery/cookery/noun/요리법
+lunch/lunch/noun/점심
+Word/word/noun/단어, 말
+organization./organization/noun/단체
+told/none/none/none
+imagined/imagine/verb/상상하다
+bit/bit/noun/“bite”의 과거형
+Magazine./magazine/noun/잡지
+years/year/noun/년
+scholarly/scholarly/adjective/학자의, 학구적인
+pleading/plead/verb/주장하다
+nurturing/none/none/none
+children/children/noun/“child”의 복수형
+darkness/darkness/noun/어둠
+went/none/none/none
+work/work/verb/일하다
+made/none/none/none
+conclude/conclude/verb/-을 끝내다
+consideration./consideration/noun/고려
+come/come/verb/-쪽으로 오다
+hoping/hope/verb/소망하다, 바라다
+coast/coast/noun/해안
+books/book/noun/책
 Guptill/none/none/none
 Web/web/noun/거미줄
 Madam/madam/noun/격식을 차려 여성을 부르는 말
-catalogs/catalogue/noun/카탈로그
 following/following/adjective/그 다음의
-final/final/adjective/마지막의
-Library/library/noun/도서관
-Sir/sir/noun/이름을 모르는 남자를 공손하게 부를때 씀
-Press/press/verb/누르다
+gave/none/none/none
+Society/society/noun/사회
 WordPerfect/none/none/none
 works/work/verb/일하다
 clients/client/noun/고객
-Macintosh/none/none/none
-concept/concept/noun/개념
-conceptualizing/none/none/none
-engaging/none/none/none
-knowledgeable/knowledgeable/adjective/아는 것이 많은
-Macmillan/none/none/none
-producing/produce/verb/생산하다
+questioning/question/noun/질문
+seeing/see/verb/보다
+ways/way/noun/방법
+fall/fall/verb/떨어지다
 writing/writing/noun/쓰기
-advertisement/advertisement/noun/광고
 have/have/auxiliary verb/동사를 현재 분사와 과거 분사형으로 만들때 함께 쓰인다
-copywriter/none/none/none
-Lifestyle/lifestyle/noun/생활 방식
-hearing/hearing/noun/청력
+dark/dark/adjective/(색이) 어두운
+course/none/none/none
 copy/copy/noun/복사
 ability/ability/noun/능력
-Oxford/none/none/none
-allows/allow/verb/-을 허락하다, -을 할 수 있게 하다
-types/type/noun/종류, 유형
-art/art/noun/예술
-brochures/brochure/noun/브로셔, 안내 책자
-original/original/adjective/독창적인
-Publications/publication/noun/출판물
+informed/inform/verb/정보를 주다
+Study/study/verb/공부하다
 Raleigh/none/none/none
+reminder/reminder/noun/상기시키는 것
 Reference/reference/noun/추천서
 Fashion/fashion/noun/패션, 유행
-confidence/confidence/noun/자신감
-Hawaii/none/none/none
+knew/none/none/none
+change/change/verb/바꾸다
 produce/produce/verb/생산하다
-Arcade/none/none/none
-gripping/gripping/adjective/흥미를 이끄는
-PC/PC/noun/개인용 컴퓨터
-fast/fast/adjective/빠른
-material/material/noun/천
+boat/boat/noun/보트, 배
+otters./none/none/none
+lots/parking lot/noun/주차장
 powerful/powerful/adjective/영향력 있는
-meet/meet/verb/만나다
+species/species/noun/종
+Healthcare/healthcare/noun/의료 서비스
+cannot/cannot/modal verb/“can”의 부정형
+heads/head/noun/머리
+complete/complete/adjective/완벽한, 완성된
+small/small/adjective/작은
+possibilities/possibility/noun/가능성
+feel/feel/verb/(행복, 슬픔, 두려움 마음이) 들다
+Journal/journal/noun/학술지
+experience/experience/noun/(직장등에서 얻는) 경험
+deadlines/deadline/noun/기한
+seats/seat/noun/좌석, 자리
+platforms/platform/noun/플랫폼, 승강장
+abilities/ability/noun/능력
+looks/look/verb/보다
+find/find/verb/찾다
+academic/academic/adjective/학구적인
+create/create/verb/-을 창출하다, 만들어 내다
+few/none/none/none
+welcoming/welcoming/adjective/환영하는
+Yours/yours/pronoun/너의 것
+refrained/none/none/none
+confessed/confess/verb/고백하다
+assessing/assess/verb/평가하다
+day/day/noun/하루
+group/group/noun/무리, 집단
+new/new/adjective/새로운
+package/package/noun/소포
+MS/Ms/noun/(여성의 성 앞에)-씨
+crafted/none/none/none
+laughed/laugh/verb/웃다
+accepted/accept/verb/받아 들이다
+feeling/feeling/noun/감정
+excitement/excitement/noun/즐거움
+water/water/noun/물
+adventure/adventure/noun/모험
+weren/none/none/none
+entry/entry/noun/가입 기회
+countless/countless/adjective/셀 수 없이 많은
+dream/dream/noun/꿈
+catalogs/catalogue/noun/카탈로그
+were/none/none/none
+true/true/adjective/사실에 바탕을 둔
+arms/arms/noun/무기
+Library/library/noun/도서관
+supportive/none/none/none
+Macintosh/none/none/none
+part/part/noun/부품, 부분
+conceptualizing/none/none/none
+rocky/rocky/adjective/바위로 된
+engaging/none/none/none
+holding/hold/verb/쥐다
+general/general/adjective/대체적인
+car/car/noun/자동차
+otters/none/none/none
+ready/ready/adjective/(-할) 준비가 된
+spend/spend/verb/(돈을) 쓰다
+studies/study/verb/공부하다
+Oxford/none/none/none
+allows/allow/verb/-을 허락하다, -을 할 수 있게 하다
+destination./destination/noun/목적지
+brochures/brochure/noun/브로셔, 안내 책자
+original/original/adjective/독창적인
+stories/story/noun/이야기
+recover/recover/verb/회복하다
+confidence/confidence/noun/자신감
+groups/group/noun/무리, 집단
+follow/follow/verb/따라가다
+recommended/recommend/verb/추천하다
+debts/debt/noun/빚
+magical/magical/adjective/마법의
+PC/PC/noun/개인용 컴퓨터
 response/response/noun/대답
 stages/stage/noun/무대
-Healthcare/healthcare/noun/의료 서비스
-time/time/noun/시
-collateral/none/none/none
-complete/complete/adjective/완벽한, 완성된
+suggestions/suggestion/noun/제안
+interested/none/none/none
+further/further/adverb/“far”의 비교급 , 더멀리
 Mead/none/none/none
