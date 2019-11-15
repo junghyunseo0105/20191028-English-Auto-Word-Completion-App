@@ -24,16 +24,14 @@ public class sendMessageThread extends Thread{
 			
 			String msg = inputText("input :");
 			
-			String str = "Writers can feel achingly alone, but I am tremendously fortunate to be part of\r\n" + 
-					"wonderfully supportive scholarly, academic, and family groups. My deepest debts for this\r\n" + 
-					"work are owed to those who have preceded me in establishing food studies as an accepted\r\n" + 
-					"discipline. In countless ways, this work would not be possible without theirs. I have\r\n" + 
-					"recommended many of their works in the suggestions for further reading that follow each\r\n" + 
-					"entry and in the general suggestions that conclude the volume. But I have also benefited\r\n" + 
-					"from the personal support and encouragement of many individuals— too many to name\r\n" + 
-					"here — at gatherings such as the conference of the Association for the Study of Food\r\n" + 
-					"and Society and the Oxford Symposium of Food and Cookery. A more welcoming and\r\n" + 
-					"nurturing group of scholars cannot be imagined.";
+			String str = "Three-year-olds don’t have to deal with the same rules and realities adults do. Because\r\n" + 
+					"of that, children tend to be more imaginative and creative with their ideas. They see\r\n" + 
+					"possibilities where the rest of us see rules, boundaries, or impossibilities. That’s why\r\n" + 
+					"they’re famous for writing on walls — you see a perfectly painted living room that\r\n" + 
+					"shouldn’t be touched; they see a blank canvas. Even if it’s just for 30 minutes, seeing\r\n" + 
+					"life from the angle of a semi-careless child can give you a new perspective on how you\r\n" + 
+					"spend your time and deal with household problems or work challenges. For that reason\r\n" + 
+					"alone, it’s valuable to imagine yourself acting as you would if you were just a child: freespirited, boundless, uncontrollably creative, and unafraid to try new things.";
 			sendMsg(str);
 			
 			while(true);

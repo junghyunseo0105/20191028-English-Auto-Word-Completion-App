@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.PersistableBundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
@@ -33,7 +34,9 @@ public class ScrapActivity extends Dialog {
         ok_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getContext(), "잠시만 기다려 주세요.", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getContext(), "잠시만 기다려 주세요.", Toast.LENGTH_SHORT).show();
+                String message = "" + editText.getText();
+
                 dismiss();
             }
         });
@@ -42,7 +45,7 @@ public class ScrapActivity extends Dialog {
         cencel_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getContext(), "취소 되었습니다.", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getContext(), "취소 되었습니다.", Toast.LENGTH_SHORT).show();
                 dismiss();   //다이얼로그를 닫는 메소드입니다.
             }
         });
