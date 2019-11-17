@@ -22,6 +22,8 @@ public class WordFile {
 	public WordFile() {
 		dataFileIO = new DataFileIO();
 		f = new File(path);
+		
+		load();
 	}
 	
 	public void load() {

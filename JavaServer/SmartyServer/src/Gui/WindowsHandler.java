@@ -3,22 +3,14 @@ package Gui;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 
-import DataFile.WordFile;
-import Server.Server;
-import Storage.DataHandler;
+import Box.Box;
 
 public class WindowsHandler implements WindowListener{
 
-	private Server server;
-	private DataHandler dataHandler;
-	private Gui gui;
-	private WordFile wordFile;
+	private Box box;
 	
-	public WindowsHandler(Server server, DataHandler dataHandler, Gui gui, WordFile wordFile) {
-		this.server = server;
-		this.dataHandler = dataHandler;
-		this.gui = gui;
-		this.wordFile = wordFile;
+	public WindowsHandler(Box box) {
+		this.box = box;
 	}
 
 	@Override
@@ -34,8 +26,10 @@ public class WindowsHandler implements WindowListener{
 
 	@Override
 	public void windowClosing(WindowEvent e) {
-		dataHandler.saveData();
-		wordFile.save();
+		box.getDataHandler().saveData();
+		box.getWordFile().save();
+		
+		System.out.println("서버가 종료됩니다...");
 		System.exit(0);
 	}
 
@@ -60,14 +54,13 @@ public class WindowsHandler implements WindowListener{
 	@Override
 	public void windowOpened(WindowEvent e) {
 		loadData();
-		wordFile.load();
 	}
 	
 	public void loadData() {
-		int requestNum = dataHandler.readRequest();
-		int wordsNum = dataHandler.readWords();
+		int requestNum = box.getDataHandler().readRequest();
+		int wordsNum = box.getDataHandler().readWords();
 		
-		gui.setRequest(requestNum);
-		gui.setWords(wordsNum);
+		box.getGui().setRequest(requestNum);
+		box.getGui().setWords(wordsNum);
 	}
 }

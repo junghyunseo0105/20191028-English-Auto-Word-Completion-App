@@ -3,4 +3,7 @@
     <string name="title_home">마이홈</string>
     <string name="title_list">단어장</string>
     <string name="title_userInfo">내정보</string>
+    <string name="facebook_app_id">892647011132159</string>
+    <string name="fb_login_protocol_scheme">fb892647011132159</string>
+
 </resources>

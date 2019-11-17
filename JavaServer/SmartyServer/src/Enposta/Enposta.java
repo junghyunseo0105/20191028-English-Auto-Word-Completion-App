@@ -2,21 +2,15 @@ package Enposta;
 
 import java.util.ArrayList;
 
+import Box.Box;
 import DataFile.Word;
-import DataFile.WordFile;
-import Gui.Gui;
-import Storage.DataHandler;
 
 public class Enposta {
 	
-	private WordFile wordFile;
-	private Gui gui;
-	private DataHandler dataHandler;
+	private Box box;
 	
-	public Enposta(WordFile wordFile, Gui gui, DataHandler dataHandler) {
-		this.wordFile = wordFile;
-		this.gui = gui;
-		this.dataHandler = dataHandler;
+	public Enposta(Box box) {
+		this.box = box;
 	}
 	
 	/*
@@ -26,7 +20,7 @@ public class Enposta {
 	 */
 	
 	public String getCalculList(String posts) {
-		Posta posta = new Posta(wordFile);
+		Posta posta = new Posta(box.getWordFile());
 		ArrayList<Word> array = posta.getFinalPosta(posts);
 		String wordOneList = new String();
 		int length = array.size();
@@ -45,10 +39,14 @@ public class Enposta {
 	}
 	
 	public void increaseStorage(int amount) {
-		int requestNum = dataHandler.plusRequest(1);
-		int wordsNum = dataHandler.plusWords(amount);
+		int requestNum = box.getDataHandler().plusRequest(1);
+		int wordsNum = box.getDataHandler().plusWords(amount);
 		
-		gui.setRequest(requestNum);
-		gui.setWords(wordsNum);
+		box.getGui().setRequest(requestNum);
+		box.getGui().setWords(wordsNum);
+	}
+	
+	public void saveData() {
+		box.getDataHandler().saveData();
 	}
 }

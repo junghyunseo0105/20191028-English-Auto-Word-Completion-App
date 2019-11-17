@@ -20,7 +20,6 @@ public class DataFileIO {
 			BufferedReader bufReader = new BufferedReader(filereader);
 			String line = "";
 
-			int i = 0;
 			while ((line = bufReader.readLine()) != null) {
 				array.add(line);
 				System.out.println(line);
