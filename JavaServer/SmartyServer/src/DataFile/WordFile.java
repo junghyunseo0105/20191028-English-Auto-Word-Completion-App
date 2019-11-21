@@ -93,7 +93,6 @@ public class WordFile {
 
 	public boolean findspelling(String spelling) {
 		boolean flag = true;
-		int i = 0;
 		for(Map.Entry<String, Word> elem : wordList.entrySet()){
 			 
             String key = elem.getKey();
@@ -103,7 +102,6 @@ public class WordFile {
             	flag = false;
             	break;
             }
-            i++;
         }
 		return flag;
 	}

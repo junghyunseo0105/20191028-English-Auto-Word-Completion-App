@@ -54,4 +54,39 @@ public class Crolling {
         
 	}
 	
+	public Word getIdiom(String word) {
+		Word word1 = null;
+		/*
+		String url = "https://endic.naver.com/search.nhn?sLn=kr&query=" + word;
+		String spellingSelector = "#content > div:nth-child(4) > dl > dt.first > span.fnt_e30 > a > strong";
+		String ComponentSelector = "#content > div:nth-child(4) > dl > dd:nth-child(2) > div > p:nth-child(1) > span.fnt_k09";
+		String meanSelector = "#content > div:nth-child(4) > dl > dd:nth-child(2) > div > p:nth-child(1) > span.fnt_k05";
+		*/
+		String url = "https://dictionary.cambridge.org/ko/%EC%82%AC%EC%A0%84/%EC%98%81%EC%96%B4-%ED%95%9C%EA%B5%AD%EC%96%B4/" + word;
+		String meanSelector = "div.sense-block:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > span:nth-child(1)";
+
+		Document doc = null;
+		
+		try {
+			doc = Jsoup.connect(url).get();
+			
+			Element meanElement1 = doc.select(meanSelector).get(0);
+	        
+
+	        String mean = meanElement1.text();
+	        
+	        if(mean.equals("")) return word1;
+	        
+	        word1 = new Word(word, "idiom", mean);
+	        return word1;
+		} catch (IOException e) {
+			System.out.println(e.getMessage());
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+		return word1;
+        
+	}
+	
 }

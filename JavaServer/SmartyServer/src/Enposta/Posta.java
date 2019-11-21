@@ -11,6 +11,7 @@ import kr.co.shineware.nlp.posta.en.core.EnPosta;
 public class Posta {
 	
 	private WordFile wordFile;
+	private IdiomPosta idiomPosta;
 	
 	/*
 	 * getPosta로 형태소가 분리된 List return한다.
@@ -20,12 +21,15 @@ public class Posta {
 	
 	public Posta(WordFile wordFile) {
 		this.wordFile = wordFile;
+		idiomPosta = new IdiomPosta(wordFile);
 	}
 	
 	public ArrayList<Word> getFinalPosta(String posts) {
 		List<String> list = getPosta(posts);
 		ArrayList<String> PosList = getPosList(list);
 		ArrayList<Word> WordList = webCrolling(PosList);
+		
+		WordList.addAll(idiomPosta.getIdiomList(list));
 		
 		return WordList;
 	}

@@ -101,6 +101,7 @@ public class LoopThread extends Thread{
 	
 	public void closeSocket() {
 		userWord.saveData();
+		System.out.println(userWord.getName() + " Á¢¼Ó Á¾·áµÊ...");
 		try {
 			flag = false;
 			socket.close();
